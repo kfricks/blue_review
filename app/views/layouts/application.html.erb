@@ -12,21 +12,21 @@
   <body>
     <header>
      <div class="logo-lockup-header">
-       <img_tag src="images/icon-logo-header.png" alt="Orange Review Logo" height="23" width="23" class="logo-icon">
+      <%= image_tag("icon-logo-header.png", {alt:"Orange Review Logo", height: "23", width: "23", class: "logo-icon"}) %>
        Orange Review
      </div>
      <nav class="top-nav">
        <a href="#">Topics</a>
        <a href="#">Tags</a>
        <div class="nav--search">
-         <img_tag src="images/icon-search-header.png" alt="Search" height="14" width="14">
+         <%= image_tag("icon-search-header.png", {alt: "Search", height: "14", width: "14"}) %>
        </div>
      </nav>
     </header>
     <%= yield %>
     <footer>
       <div class="logo-lockup-footer">
-       <img_tag src="images/icon-logo-header.png" alt="logo" height="23" width="23" class="logo-icon" alt="Orange Review Logo">
+       <%= image_tag("icon-logo-header.png", {alt: "Orange Review logo", height: "23", width: "23", class: "logo-icon"}) %>
        Orange Review
        <div class="logo-tagline">The best travel tips</div>
      </div>
