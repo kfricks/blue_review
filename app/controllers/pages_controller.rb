@@ -1,10 +1,16 @@
 class PagesController < ApplicationController
-  def about
-    @incredible_message="WILD MESSAGE"
+  def article
+  end
+
+  def search
+  end
+
+  def home
   end
 
   def partners
-    @incredible_message = "you're on the partners page now, pal"
-    render :about
+  end
+
+  def about
   end
 end
