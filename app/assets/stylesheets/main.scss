@@ -53,6 +53,14 @@ h2 a {
   color: #4c4c4c;
 }
 
+h3 {
+    color: white;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
 .h3 {
   color: #515151;
   font-size: 22px;
@@ -68,7 +76,7 @@ h2 a {
 
 h3::before {
   content: '';
-  background-image: url(images/icon-search.png);
+  background-image: image-url('icon-search.png');
   background-size: cover;
   display: block;
   height: 21px;
@@ -109,6 +117,10 @@ p, ul{
   line-height: 39px;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+ul {
+    margin-left: -66px;
 }
 
 .logo-lockup-header {
@@ -211,20 +223,20 @@ footer {
 }
 
 .hero--home {
-  background-image: url(images/hero-1.jpg);
+  background-image: image-url('hero-1.jpg');
   background-size: cover;
   height: 482px;
 }
 
 .hero--about {
-  background-image: url(images/bg-title.jpg);
+  background-image: image-url('bg-title.jpg');
   background-size: cover;
   height: 290px;
   position: relative;
 }
 
 .hero--blog {
-  background-image: url(images/hero-3.jpg);
+  background-image: image-url('hero-3.jpg');
   background-size: cover;
   height: 482px;
 }
@@ -326,7 +338,7 @@ button {
 }
 
 .quote-section {
-  background-image: url(images/bg-quote.jpg);
+  background-image: image-url('bg-quote.jpg');
   background-size: cover;
   width: 100%;
   height: 293px;
@@ -385,7 +397,7 @@ p.text-ad {
 }
 
 .ad-beside-article {
-  background-image: url(images/bg-ad-1.jpg);
+  background-image: image-url('bg-ad-1.jpg');
   background-size: cover;
   width: 192px;
   height: 416px;
@@ -401,7 +413,7 @@ p.text-ad {
 }
 
 .main--search {
-  background-image: url(images/search-bg.png);
+  background-image: image-url('search-bg.png');
   background-size: cover;
   width: 100%;
   padding-top: 67px;
@@ -459,14 +471,14 @@ input::placeholder {
 }
 
 .horizontal-ad--steak {
-  background-image: url(images/bg-ad-3.png);
+  background-image: image-url('bg-ad-3.png');
   background-size: cover;
   width: 825px;
   height: 100px;
 }
 
 .horizontal-ad--dragonfruit {
-  background-image: url(images/bg-ad-2.png);
+  background-image: image-url('bg-ad-2.png');
   background-size: cover;
   width: 825px;
   height: 100px;
@@ -554,7 +566,7 @@ input::placeholder {
 }
 
 .trending--card-image {
-  background: url("images/image.png") bottom center no-repeat;
+  background: image-url('image.png') bottom center no-repeat;
   background-size: 400px;
   width: 232px;
   height: 171px;
@@ -602,6 +614,23 @@ input::placeholder {
 
 .section-thanks-right--container {
   position: relative;
+}
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: '';
+  display: inline-block;
+  height: 8px;
+  width: 10px;
+  background-size: 10px;
+  background-image: image-url('icon-bullet.png');
+  background-repeat: no-repeat;
+  margin-right: 15px;
+  background-position: center center;
+  vertical-align: middle;
 }
 
 .circle-image {
