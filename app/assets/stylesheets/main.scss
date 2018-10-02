@@ -28,6 +28,14 @@ h1 {
   line-height: 72px;
 }
 
+h2 {
+    color: #fa9c35;
+    margin: 0;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
 .h2 {
   color: #4d4d4d;
   font-size: 36px;
@@ -84,6 +92,15 @@ h3::before {
   margin: 0 0 -39px -37px;
 }
 
+h4 {
+  font-family: 'Alegreya SC', serif;
+  color: #FDBA41;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .h4 {
   font-family: 'Alegreya Sans', sans-serif;
   color: #848484;
@@ -98,6 +115,17 @@ h3::before {
 .h4 a {
   color: 848484;
   margin-left: 10px;
+}
+
+h5 {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #FDBA41;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
 }
 
 .h5 {
@@ -121,6 +149,20 @@ p, ul{
 
 ul {
     margin-left: -66px;
+}
+
+.hero--text-s {
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #4C4C4C;
+    font-size: 16px;
+    margin-right: 15px;
+    display: inline-block;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+.hero--text-s a {
+    color: #4C4C4C;
 }
 
 .logo-lockup-header {
